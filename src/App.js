@@ -10,7 +10,7 @@ const App = () => {
       <p>Your favorite food, delivered while coding</p>
       <nav>
         <Link to="/"><button>Home</button></Link>
-        <Link to="/order">
+        <Link to="/pizza">
        <button className="order-pizza">Order</button>
         </Link>
       </nav>
