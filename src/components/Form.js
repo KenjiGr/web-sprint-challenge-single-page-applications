@@ -77,7 +77,7 @@ function Form() {
       
       const formSubmit = (e) => {
         e.preventDefault();
-        axios.post('https://reqres.in/api/users', form)
+        axios.post('https://reqres.in/api/orders', form)
         .then(res => console.log(res))
         .catch(err => console.log(err));
       };
@@ -142,7 +142,7 @@ function Form() {
         onChange={inputChange} name="jalapeno" 
         />Jalapeno
     </p>
-    <p>
+    <p >
     <label htmlFor="instructions">Special Requests?</label>
     <textarea 
     name="instructions"
