@@ -113,7 +113,7 @@ function Form() {
         </select>
     </p>
     <label htmlFor="toppings">Choose Your Toppings Below:</label>
-    <p>
+    <p id='toppingsCont'>
     <input 
     id="toppings" type="checkbox" checked={form.pepperoni} 
     onChange={inputChange} name="pepperoni" 
