@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  margin-left: 1.5rem;
+}
+
+form {
+  margin: 1.5rem;
+}
+
+label {
+  margin-right: 1.5rem;
+}
+
+img {
+  width: 50rem;
+  height: 40rem;
+}
+
+.header {
+  background-color: rgb(228, 74, 74);
+  padding: 1rem;
+}
+
+.submit {
+  margin-left: 13rem;
+  padding: 1rem;
+}
+
+.error {
+  color: rgb(158, 10, 10);
+}

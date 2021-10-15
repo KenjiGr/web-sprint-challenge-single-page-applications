@@ -88,7 +88,7 @@ function Form() {
       <form onSubmit={formSubmit}>
         <p><label htmlFor="name">Name
         <input 
-        id="name" 
+        id="name-input" 
         name="name"
         type="text" 
         placeholder="Name" 
@@ -100,7 +100,7 @@ function Form() {
       
         <p><label htmlFor="sauce">Sauce Select</label>
         <input id="sauce" type="radio" value="Tomato" name="sauce" /> Tomato
-        <input id="sauce" type="radio" value="BBQ" name="sauce" /> BBQ
+        <input id="sauce" type="radio" value="Garlic Ranch" name="sauce" /> Garlic Ranch
         <input id="sauce" type="radio" value="Alfredo" name="sauce" /> Alfredo
         </p>
         <p><label htmlFor="size-dropdown">Size Select</label>
@@ -146,12 +146,12 @@ function Form() {
     <label htmlFor="instructions">Special Requests?</label>
     <textarea 
     name="instructions"
-    id="instructions"
+    id="special-request"
     placeholder="Instructions"
     value={form.instructions}
     onChange={inputChange}
     /></p>
-    <button className="submit">Submit</button>
+    <button className="submit" id='order-button'>Order</button>
     </form>
     </div>
     );
